@@ -1,5 +1,11 @@
-# Payforme Proxy
+# PayFormeProxy
 
-Scaffold for a proxy that handles HTTP 402 payment-required flows for agents and scripts.
+A proxy that handles HTTP 402 payment-required flows for AI agents and scripts.
 
-This repository is intentionally scaffolded with comments describing planned responsibilities before implementation.
+to build:
+```bash
+cd cmd/payformeproxy
+go build -o payformeproxy
+```
+
+[Planned code architecture](./docs/code_architecture.md)

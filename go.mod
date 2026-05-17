@@ -1,3 +1,3 @@
-module payforme
+module payformeproxy
 
 go 1.23.0
