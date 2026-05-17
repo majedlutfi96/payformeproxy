@@ -1,0 +1,22 @@
+{
+  "server": {
+    "listen_address": "127.0.0.1:8089"
+  },
+  "auth": {
+    "users": []
+  },
+  "wallets": [],
+  "chains": {
+    "algorand": {
+      "enabled": true,
+      "algod_address": "https://testnet-api.algonode.cloud"
+    }
+  },
+  "policy": {
+    "allowed_domains": [],
+    "blocked_domains": []
+  },
+  "tui": {
+    "enabled": true
+  }
+}
